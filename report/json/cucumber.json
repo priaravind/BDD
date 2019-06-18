@@ -1,0 +1,258 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 18,
+        "name": "Login page validation with positive credentials",
+        "description": "",
+        "id": "login-page-validation;login-page-validation-with-positive-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36789554406,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on demo.automationtesting home page",
+            "match": {
+              "location": "loginstepdefination.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12886218209,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "#Given is used as a prerequiste condition"
+              }
+            ],
+            "line": 8,
+            "name": "user clicks on Skip Signin button",
+            "match": {
+              "location": "loginstepdefination.user_clicks_skipsignin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 103964544,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on Register page",
+            "match": {
+              "location": "loginstepdefination.user_is_on_registerpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1269367552,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 10,
+                "value": "#when is used to specify the condition"
+              }
+            ],
+            "line": 11,
+            "name": "user enters the \"Priya\" and \"Aravindakshan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Priya",
+                  "offset": 17
+                },
+                {
+                  "val": "Aravindakshan",
+                  "offset": 29
+                }
+              ],
+              "location": "loginstepdefination.enter_text(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 646081948,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 12,
+                "value": "#Then is used to perform the next action"
+              }
+            ],
+            "line": 13,
+            "name": "user clicks on Submit button",
+            "match": {
+              "location": "loginstepdefination.clicks_submit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7362312837,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Close the browser",
+            "match": {
+              "location": "loginstepdefination.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@tst"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Login page validation with positive credentials",
+        "description": "",
+        "id": "login-page-validation;login-page-validation-with-positive-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12641768993,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on demo.automationtesting home page",
+            "match": {
+              "location": "loginstepdefination.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6530008617,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "#Given is used as a prerequiste condition"
+              }
+            ],
+            "line": 8,
+            "name": "user clicks on Skip Signin button",
+            "match": {
+              "location": "loginstepdefination.user_clicks_skipsignin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31875881,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on Register page",
+            "match": {
+              "location": "loginstepdefination.user_is_on_registerpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 530097290,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 10,
+                "value": "#when is used to specify the condition"
+              }
+            ],
+            "line": 11,
+            "name": "user enters the \"Harshitha\" and \"Rathish\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Harshitha",
+                  "offset": 17
+                },
+                {
+                  "val": "Rathish",
+                  "offset": 33
+                }
+              ],
+              "location": "loginstepdefination.enter_text(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 185112218,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 12,
+                "value": "#Then is used to perform the next action"
+              }
+            ],
+            "line": 13,
+            "name": "user clicks on Submit button",
+            "match": {
+              "location": "loginstepdefination.clicks_submit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7116216603,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Close the browser",
+            "match": {
+              "location": "loginstepdefination.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@tst"
+          }
+        ]
+      }
+    ],
+    "name": "Login page Validation",
+    "description": "",
+    "id": "login-page-validation",
+    "keyword": "Feature",
+    "uri": "BDD.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tst"
+      }
+    ]
+  }
+]

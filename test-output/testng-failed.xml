@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [maveen]">
+  <test name="Testsuite(failed)">
+    <classes>
+      <class name="testrun.cucumberrun">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- testrun.cucumberrun -->
+    </classes>
+  </test> <!-- Testsuite(failed) -->
+</suite> <!-- Failed suite [maveen] -->
